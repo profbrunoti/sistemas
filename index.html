@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="Bruno Messias — Desenvolvedor de sistemas para micro e pequenas empresas. Soluções com baixo custo e alto impacto." />
+<title>Bruno Messias — Desenvolvedor de Sistemas</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,600;9..144,900&family=JetBrains+Mono:wght@400;500;700&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- Grain overlay -->
+<div class="grain" aria-hidden="true"></div>
+
+<!-- Navigation -->
+<nav class="nav">
+  <div class="nav__inner">
+    <a href="#top" class="nav__logo">
+      <span class="logo-mark">BRN</span>
+      <span class="logo-sub">Sistemas</span>
+      <span class="logo-pulse"></span>
+    </a>
+    <ul class="nav__links">
+      <li><a href="#sobre" data-link>Sobre</a></li>
+      <li><a href="#servicos" data-link>Serviços</a></li>
+      <li><a href="#stack" data-link>Stack</a></li>
+      <li><a href="#contato" data-link>Contato</a></li>
+    </ul>
+    <button class="nav__toggle" aria-label="Menu" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- HERO -->
+<header id="top" class="hero">
+  <div class="hero__bg">
+    <div class="orb orb--1"></div>
+    <div class="orb orb--2"></div>
+    <div class="grid-lines"></div>
+  </div>
+
+  <div class="hero__meta">
+    <span class="meta-tag">
+      <span class="dot"></span> DISPONÍVEL PARA PROJETOS
+      <a href="https://wa.me/5511965655144?text=Ol%C3%A1%20Bruno!%20Vim%20pelo%20seu%20portf%C3%B3lio." target="_blank" rel="noopener" class="meta-wa" aria-label="WhatsApp">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+          <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.464 3.488"/>
+        </svg>
+      </a>
+    </span>
+    <span class="meta-loc">SÃO PAULO · BR</span>
+  </div>
+
+  <div class="hero__content">
+    <p class="hero__eyebrow">Portfólio · 2026 / Edição 01</p>
+    <h1 class="hero__title">
+      <span class="line"><span>Sistemas</span></span>
+      <span class="line line--italic"><span>sob medida</span></span>
+      <span class="line"><span>para quem</span></span>
+      <span class="line line--accent"><span>faz acontecer.</span></span>
+    </h1>
+
+    <div class="hero__bottom">
+      <p class="hero__lead">
+        Sou <strong>Bruno Messias</strong> — desenvolvedor formado em TI.
+        Crio sistemas web e ferramentas digitais para <em>micro e pequenas empresas</em>,
+        com foco em <em>baixo custo</em> e alto impacto operacional.
+      </p>
+      <a href="#contato" class="btn btn--primary" data-magnet>
+        <span>Iniciar projeto</span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M5 12h14M13 5l7 7-7 7"/>
+        </svg>
+      </a>
+    </div>
+  </div>
+
+  <!-- Scrolling marquee -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee__track">
+      <span>FULL-STACK</span><span>✦</span>
+      <span>BANCO DE DADOS</span><span>✦</span>
+      <span>AUTOMAÇÕES</span><span>✦</span>
+      <span>WEB SYSTEMS</span><span>✦</span>
+      <span>BAIXO CUSTO</span><span>✦</span>
+      <span>ALTA EFICIÊNCIA</span><span>✦</span>
+      <span>FULL-STACK</span><span>✦</span>
+      <span>BANCO DE DADOS</span><span>✦</span>
+      <span>AUTOMAÇÕES</span><span>✦</span>
+      <span>WEB SYSTEMS</span><span>✦</span>
+      <span>BAIXO CUSTO</span><span>✦</span>
+      <span>ALTA EFICIÊNCIA</span><span>✦</span>
+    </div>
+  </div>
+</header>
+
+<!-- SOBRE -->
+<section id="sobre" class="section about">
+  <div class="section__head">
+    <span class="section__num">01 / SOBRE</span>
+    <h2 class="section__title">Engenharia <em>prática</em>, resultado <em>real</em>.</h2>
+  </div>
+
+  <div class="about__grid">
+    <div class="about__text">
+      <p class="lead">
+        Trabalho ao lado de empreendedores que querem <strong>tirar a operação do papel</strong>
+        — substituir planilhas confusas, automatizar tarefas repetitivas e
+        ganhar visão sobre o próprio negócio.
+      </p>
+      <p>
+        Cada sistema é desenhado de forma <em>enxuta</em>: nada de complexidade desnecessária,
+        nada de mensalidades caras de SaaS genérico. Você recebe uma ferramenta
+        que <strong>cabe na sua realidade</strong> e cresce junto com a empresa.
+      </p>
+    </div>
+
+    <ul class="about__stats">
+      <li>
+        <span class="stat__num" data-count="100">0</span><span class="stat__suffix">%</span>
+        <p>Projetos entregues sob medida</p>
+      </li>
+      <li>
+        <span class="stat__num" data-count="10">0</span><span class="stat__suffix">+</span>
+        <p>Tecnologias dominadas</p>
+      </li>
+      <li>
+        <span class="stat__num" data-count="24">0</span><span class="stat__suffix">h</span>
+        <p>Resposta rápida em suporte</p>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- SERVIÇOS -->
+<section id="servicos" class="section services">
+  <div class="section__head">
+    <span class="section__num">02 / SERVIÇOS</span>
+    <h2 class="section__title">O que eu <em>construo</em> para você.</h2>
+  </div>
+
+  <div class="services__grid">
+    <article class="service" style="--i:1">
+      <div class="service__num">01</div>
+      <h3>Sistemas Web</h3>
+      <p>Painéis administrativos, ERPs simplificados, controles de estoque, financeiros e gestão de clientes — feitos sob medida.</p>
+      <ul class="service__tags">
+        <li>Dashboard</li><li>CRUD</li><li>Multiusuário</li>
+      </ul>
+    </article>
+
+    <article class="service service--accent" style="--i:2">
+      <div class="service__num">02</div>
+      <h3>Automações</h3>
+      <p>Scripts e integrações que tiram horas de trabalho manual da sua semana — relatórios, planilhas, e-mails e APIs conectadas.</p>
+      <ul class="service__tags">
+        <li>API</li><li>Bots</li><li>Integrações</li>
+      </ul>
+    </article>
+
+    <article class="service" style="--i:3">
+      <div class="service__num">03</div>
+      <h3>Banco de Dados</h3>
+      <p>Modelagem, otimização e migração de dados. Estruturo a base certa para o sistema crescer sem dor de cabeça depois.</p>
+      <ul class="service__tags">
+        <li>MySQL</li><li>PostgreSQL</li><li>SQL Server</li>
+      </ul>
+    </article>
+
+    <article class="service" style="--i:4">
+      <div class="service__num">04</div>
+      <h3>Sites & Landing Pages</h3>
+      <p>Presença digital profissional, rápida e responsiva — pensada para converter visitantes em clientes.</p>
+      <ul class="service__tags">
+        <li>Responsivo</li><li>SEO</li><li>Performance</li>
+      </ul>
+    </article>
+  </div>
+</section>
+
+<!-- STACK -->
+<section id="stack" class="section stack">
+  <div class="section__head">
+    <span class="section__num">03 / STACK</span>
+    <h2 class="section__title">Ferramentas que <em>uso</em> todos os dias.</h2>
+  </div>
+
+  <div class="stack__groups">
+    <div class="stack__group">
+      <h4>Front-end</h4>
+      <ul>
+        <li>HTML5</li><li>CSS3</li><li>JavaScript</li><li>React</li><li>Tailwind</li>
+      </ul>
+    </div>
+    <div class="stack__group">
+      <h4>Back-end</h4>
+      <ul>
+        <li>Node.js</li><li>PHP</li><li>Python</li><li>C#</li><li>REST APIs</li>
+      </ul>
+    </div>
+    <div class="stack__group">
+      <h4>Banco de Dados</h4>
+      <ul>
+        <li>MySQL</li><li>PostgreSQL</li><li>SQL Server</li><li>SQLite</li><li>MongoDB</li>
+      </ul>
+    </div>
+    <div class="stack__group">
+      <h4>Ferramentas</h4>
+      <ul>
+        <li>Git / GitHub</li><li>Docker</li><li>VS Code</li><li>Linux</li><li>Figma</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- CONTATO -->
+<section id="contato" class="section contact">
+  <div class="contact__inner">
+    <span class="section__num">04 / CONTATO</span>
+    <h2 class="contact__title">
+      Tem um <em>projeto</em>?<br>
+      Vamos <span class="underline">conversar</span>.
+    </h2>
+
+    <p class="contact__lead">
+      Me conte sobre seu negócio e o que você precisa resolver.
+      Em até <strong>24h</strong> eu retorno com uma proposta clara — sem enrolação, sem custo escondido.
+    </p>
+
+    <div class="contact__cards">
+      <a class="ccard" href="mailto:brunomessias46@gmail.com">
+        <span class="ccard__label">Email</span>
+        <span class="ccard__value">brunomessias46@gmail.com</span>
+        <svg class="ccard__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M7 17L17 7M7 7h10v10"/>
+        </svg>
+      </a>
+      <a class="ccard ccard--accent" href="https://wa.me/5511965655144?text=Ol%C3%A1%20Bruno!%20Vim%20pelo%20seu%20portf%C3%B3lio." target="_blank" rel="noopener">
+        <span class="ccard__label">
+          <svg class="ccard__wa" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.464 3.488"/>
+          </svg>
+          WhatsApp
+        </span>
+        <span class="ccard__value">(11) 96565-5144</span>
+        <svg class="ccard__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M7 17L17 7M7 7h10v10"/>
+        </svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="footer__top">
+    <div class="footer__big">
+      <span class="line">VAMOS</span>
+      <span class="line line--italic">CRIAR</span>
+      <span class="line">JUNTOS.</span>
+    </div>
+  </div>
+  <div class="footer__bottom">
+    <span>© <span id="year"></span> Bruno Messias · Desenvolvedor</span>
+    <span class="footer__signal"><span class="dot"></span> Online agora</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
